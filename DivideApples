@@ -1,0 +1,6 @@
+students = int(input())
+apples = int(input())
+numberOfApplesForEachStudent = apples // students
+remainingApples = apples % students
+print(numberOfApplesForEachStudent)
+print(remainingApples)
